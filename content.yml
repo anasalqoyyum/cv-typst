@@ -1,0 +1,193 @@
+# yaml-language-server: $schema=./src/cv.typ.schema.json
+
+personal:
+  name: Muhammad Anas Alqoyyum
+  email: hello@anasalqoyyum.dev
+  phone: (+62) 813 2772 0079
+  url: https://anasalqoyyum.dev
+  titles:
+    - Software Engineer
+  location:
+    city: Jepara
+    region: Jawa Tengah
+    country: Indonesia
+  profiles:
+    - network: LinkedIn
+      username: Anas Alqoyyum
+      url: https://linkedin.com/in/anasalqoyyum
+    - network: GitHub
+      username: anasalqoyyum
+      url: https://github.com/anasalqoyyum
+
+work:
+  - organization: AccelByte
+    url: https://accelbyte.io
+    location: Remote / Washington, USA
+    positions:
+      - position: Software Engineer
+        startDate: 2021-06-21
+        endDate: present
+        highlights:
+          - Spearheaded the migration of multiple documentation sites into a unified platform using Docusaurus with custom branding.
+          - Implemented a Git-based workflow with automated "pull request previews" to streamline content review processes.
+          - Contributed to the development of breakthrough applications, including web and desktop applications (React & Electron) and backend services (Node.js, Golang).
+          - Enabled automation to reduce manual engineering efforts in customizing customer-specific needs.
+          - Enhanced documentation and internal workflows, ensuring better accessibility and usability for both internal and external stakeholders.
+          - Created, reviewed, and maintained multiple technical specifications, product requirements, and UI designs.
+
+education:
+  - institution: Diponegoro University
+    url: https://undip.ac.id/
+    area: Computer Science
+    studyType: Bachelor of Science
+    startDate: 2017-06-30
+    endDate: 2021-05-30
+    location: Semarang, Indonesia
+    honors:
+      - 3.62 / 4.0 GPA
+      - Cumlaude
+    courses:
+      - Algorithms & Data Structures
+      - Machine Learning
+      - Languages and Automata Theory
+      - Computing and Graphics
+    highlights:
+      - "*Thesis*: YOLOv4 Algorithm Implementation Based on Darknet and Optical Character Recognition on Vehicle License Plate Detection"
+      - "*Activities*: Student Board - Appointed as Head of Communication and Information"
+
+affiliations:
+  - organization: Informatics Student Board (HMIF)
+    position: Head of Communication and Information
+    location: Semarang, Indonesia
+    url: https://undip.ac.id
+    startDate: 2018-01-30
+    endDate: 2019-01-30
+    highlights:
+      - Led a team of peers in managing communication strategies and information flow for the University Student Board.
+      - Illustrated, created and conceptualized the design of post content. Mainly Instagram and Line account of HMIF undip
+      - Managed and developed website of HMIF Undip
+
+awards:
+  - title: "Funded Project in Student Creativity Week (PKM)"
+    date: 2020-09-12
+    issuer: Ministry of Education and Culture
+    url: null
+    location: Jakarta, Indonesia
+    highlights:
+      - "Served as the speaker and presented in the event."
+  - title: "Silver Award Indonesia Inventors Day"
+    date: 2019-08-15
+    issuer: INNOPA
+    location: Jakarta, Indonesia
+
+certificates:
+  - name: "Junior Fullstack Web Developer License"
+    date: 2020-09-16
+    issuer: National Certification Agency for Professional Certification (BNSP)
+    id: null
+  - name: "Basic Student Management Skills Training (LKMM-D)"
+    date: 2018-01-25
+    issuer: BEM FSM Undip
+    id: null
+
+publications:
+  - name: YOLOv4 Algorithm Implementation Based on Darknet and Optical Character Recognition on Vehicle License Plate Detection
+    publisher: AIP Conference Proceedings in The 6th International Conference On Energy, Environment, Epidemiology And Information System (ICENIS)
+    releaseDate: 2023-05-16
+    url: https://pubs.aip.org/aip/acp/article-abstract/2683/1/050023/2891286/YOLOv4-algorithm-implementation-based-on-darknet
+
+projects:
+  - name: "Dead Simple Markdown Notes"
+    url: https://note.anasalqoyyum.dev/
+    affiliation: OSS
+    startDate: null
+    endDate: null
+    highlights:
+      - A simple markdown note taking app with a focus on speed and simplicity.
+  - name: "konasute-autoscener"
+    url: https://github.com/anasalqoyyum/konasute-autoscener
+    affiliation: OSS
+    startDate: null
+    endDate: null
+    highlights:
+      - OBS Auto Scene Switcher for Konami's Sound Voltex (Arcade & Konasute) using WebSocket to explore OBS WebSocket Plugin.
+  - name: "Ansible as a (reproducable) workstation environment"
+    url: https://github.com/anasalqoyyum/ansible
+    affiliation: OSS
+    startDate: null
+    endDate: null
+    highlights:
+      - Ansible playbook collection to setup new workstation (Mac & Linux) with all the necessary tools and configurations that I needed.
+  - name: "Hikari"
+    url: null
+    affiliation: Private Works
+    startDate: null
+    endDate: null
+    highlights:
+      - Yet another customization frontend for video games with AIR movement.
+      - Written with a detailed and easy-to-use dockerized environment on how to deploy on a home arcade environment.
+      - Fullstack written with Next.js and using MariaDB. Docker and Nginx is used during deployment
+
+skills:
+  - category: Soft Skills
+    skills:
+      - Public Speaking
+      - Debating
+      - Communication
+      - Critical Thinking
+      - Leadership
+      - Persuasive Writing
+      - Technical Writing
+  - category: Programming
+    skills:
+      - Javascript & Typescript
+      - HTML
+      - CSS
+      - Golang
+      - Python
+      - Java
+      - Rust
+      - SQL, PostgreSQL
+      - Typst
+      - LaTeX
+  - category: Tools
+    skills:
+      - Git
+      - Docker
+      - Visual Studio Code
+      - Neovim
+      - Figma
+  - category: Web Development
+    skills:
+      - React
+      - Electron
+      - Docusaurus
+      - Next.js & Remix.js
+      - million.js
+      - Vue, Svelte & Sveltekit
+      - Tailwind CSS
+      - Node.js
+      - Bun
+      - FastAPI
+      - Flask
+  - category: Data Analytics
+    skills:
+      - Jupyter Notebook
+      - Numpy
+      - Pandas
+      - Plotly
+
+languages:
+  - language: Bahasa Indonesia
+    fluency: Native Speaker
+  - language: English
+    fluency: Business proficiency
+  - language: Japanese
+    fluency: Basic proficiency
+
+interests:
+  - Arcade Games
+  - Music Production
+  - Reading Non-fiction
+  - Classical and Original Soundtrack Music
+  - Bullet Points Document
