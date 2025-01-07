@@ -9,3 +9,7 @@ The template used in this repository is based on: [imprecv](https://github.com/j
 This `cv` is intended to be used by importing from a "main" file (see [`main.typ`](main.typ) as an example).
 In this main file, call the functions which apply document styles, show CV components, and load CV data from a YAML file (see [`content.yml`](content.yml) as an example).
 Inside the main file you can modify several style variables and even override existing function implementations to your own needs and preferences.
+
+```
+make compile
+```
