@@ -20,7 +20,7 @@ personal:
       url: https://github.com/anasalqoyyum
 
 work:
-  - organization: AccelByte
+  - organization: AccelByte Inc.
     url: https://accelbyte.io
     location: Remote / Washington, USA
     positions:
@@ -28,12 +28,55 @@ work:
         startDate: 2021-06-21
         endDate: present
         highlights:
-          - Spearheaded the migration of multiple documentation sites into a unified platform using Docusaurus with custom branding.
+          - Initiated the migration of multiple documentation sites into a unified platform using Docusaurus with custom branding.
+          - Contributed and led the development of breakthrough applications, including web and desktop applications (React & Electron) and backend services (Node.js, Golang).
           - Implemented a Git-based workflow with automated "pull request previews" to streamline content review processes.
-          - Contributed to the development of breakthrough applications, including web and desktop applications (React & Electron) and backend services (Node.js, Golang).
           - Enabled automation to reduce manual engineering efforts in customizing customer-specific needs.
-          - Enhanced documentation and internal workflows, ensuring better accessibility and usability for both internal and external stakeholders.
+          - Enhanced documentation and internal workflows (testing, CI/CD, etc), ensuring better accessibility and usability for both internal and external stakeholders.
           - Created, reviewed, and maintained multiple technical specifications, product requirements, and UI designs.
+          - Created standardized load testing process for frontend framework (Remix.js with Node.js) and improving the performance of the application based on the load testing result. Resulting in a 10x performance improvement and minimizing load to the VM.
+
+  - organization: Saraf Design
+    location: Semarang, Indonesia
+    positions:
+      - position: Software Engineer Fullstack / Founding Engineer
+        startDate: 2019-01-01
+        endDate: 2021-12-31
+        highlights:
+          - Successfully conceptualized, developed, and fixed over 30 projects, both large-scale and small-scale, catering to diverse client requirements.
+          - Collaborated closely with clients to outline project goals and scope.
+          - Developed web application using Laravel and Vue.js.
+
+  - organization: Undip Career Center (UCC)
+    location: Semarang, Indonesia
+    positions:
+      - position: Software Engineer Fullstack (Contract)
+        startDate: 2021-04-01
+        endDate: 2021-06-01
+        highlights:
+          - Developed and delivered job seeker center website using Laravel and Vue.js.
+
+  - organization: Diponegoro University
+    location: Semarang, Indonesia
+    positions:
+      - position: Laboratory Assistant
+        startDate: 2020-01-01
+        endDate: 2020-12-31
+        highlights:
+          - Managed the laboratory including schedule, finding assistant for lecturer, maintain laboratory PC.
+          - Created a proper schedule without any clash for each subject.
+          - Manage dozens of assistant lecturers every day before teaching the student.
+
+  - organization: Meteorology, Climatology, and Geophysical Agency (BMKG Jawa Tengah)
+    location: Semarang, Indonesia
+    positions:
+      - position: Fullstack Web Developer Intern
+        startDate: 2019-12-01
+        endDate: 2020-03-31
+        highlights:
+          - Developed interactive website called Online System Service (SIMS) using React.js and Three.js for 3D visualization of weather data.
+          - Integrated the website with existing website, so people can order tickets for BMKG data collection online.
+          - Guided 2 staff members to manage the website system, providing steps on how to use, independently make minor updates and changes in business process.
 
 education:
   - institution: Diponegoro University
@@ -59,13 +102,23 @@ affiliations:
   - organization: Informatics Student Board (HMIF)
     position: Head of Communication and Information
     location: Semarang, Indonesia
-    url: https://undip.ac.id
-    startDate: 2018-01-30
-    endDate: 2019-01-30
+    url: https://hmif.my.id/
+    startDate: 2019-01-30
+    endDate: 2020-01-30
     highlights:
       - Led a team of peers in managing communication strategies and information flow for the University Student Board.
       - Illustrated, created and conceptualized the design of post content. Mainly Instagram and Line account of HMIF undip
-      - Managed and developed website of HMIF Undip
+      - Managed and developed HMIF Undip website.
+
+  - organization: Informatics Student Board (HMIF)
+    position: Communication and Information Staff
+    location: Semarang, Indonesia
+    url: https://hmif.my.id/
+    startDate: 2018-01-30
+    endDate: 2019-01-30
+    highlights:
+      - Illustrated, created and conceptualized the design of post content. Mainly Instagram and Line account of HMIF undip
+      - Managed HMIF Undip website.
 
 awards:
   - title: "Funded Project in Student Creativity Week (PKM)"
@@ -77,7 +130,7 @@ awards:
       - "Served as the speaker and presented in the event."
   - title: "Silver Award Indonesia Inventors Day"
     date: 2019-08-15
-    issuer: INNOPA
+    issuer: Indonesian Invention and Innovation Promotion Association (INNOPA)
     location: Jakarta, Indonesia
 
 certificates:
@@ -120,13 +173,13 @@ projects:
       - Ansible playbook collection to setup new workstation (Mac & Linux) with all the necessary tools and configurations that I needed.
   - name: "Hikari"
     url: null
-    affiliation: Private Works
+    affiliation: OSS
     startDate: null
     endDate: null
     highlights:
       - Yet another customization frontend for video games with AIR movement.
       - Written with a detailed and easy-to-use dockerized environment on how to deploy on a home arcade environment.
-      - Fullstack written with Next.js and using MariaDB. Docker and Nginx is used during deployment
+      - Fullstack written with Next.js and using MariaDB. Docker and Nginx is used during deployment.
 
 skills:
   - category: Soft Skills
@@ -146,7 +199,6 @@ skills:
       - Golang
       - Python
       - Java
-      - Rust
       - SQL, PostgreSQL
       - Typst
       - LaTeX
@@ -163,13 +215,15 @@ skills:
       - Electron
       - Docusaurus
       - Next.js & Remix.js
-      - million.js
+      - Three.js
       - Vue, Svelte & Sveltekit
       - Tailwind CSS
       - Node.js
       - Bun
       - FastAPI
       - Flask
+      - Laravel
+      - Spring Boot
   - category: Data Analytics
     skills:
       - Jupyter Notebook
