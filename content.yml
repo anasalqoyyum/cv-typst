@@ -150,6 +150,14 @@ publications:
     url: https://pubs.aip.org/aip/acp/article-abstract/2683/1/050023/2891286/YOLOv4-algorithm-implementation-based-on-darknet
 
 projects:
+  - name: "Lazy Bitbucket Dashboard"
+    url: https://github.com/anasalqoyyum/lazy-bb
+    affiliation: OSS
+    startDate: null
+    endDate: null
+    highlights:
+      - A terminal user interface (TUI) apps for browsing Bitbucket pull requests built with Bubble Tea and the Charm framework.
+
   - name: "Dead Simple Markdown Notes"
     url: https://note.anasalqoyyum.dev/
     affiliation: OSS
