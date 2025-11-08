@@ -28,13 +28,14 @@ work:
         startDate: 2021-06-21
         endDate: present
         highlights:
-          - Initiated the migration of multiple documentation sites into a unified platform using Docusaurus with custom branding.
-          - Contributed and led the development of breakthrough applications, including web and desktop applications (React & Electron) and backend services (Node.js, Golang).
-          - Implemented a Git-based workflow with automated "pull request previews" to streamline content review processes.
-          - Enabled automation to reduce manual engineering efforts in customizing customer-specific needs.
+          - Led architecture of the code-generated TypeScript Web SDK from OpenAPI to a strongly typed client, modularizing generator templates and eliminating most hand-written wrappers, reducing integration time for product teams and customers.
+          - Contributed and led the development of core applications, including web and desktop applications (React & Electron) and backend services (Node.js, Golang).
+          - Automated customer-specific solution customization through an in-house visual app editor, significantly reducing manual engineering effort.
+          - Designed and maintained automated semantic versioning & release pipeline (conventional commits + changelog generation) for TypeScript Web SDK ensuring predictable upgrade paths and clear migration notes for integrators.
           - Enhanced documentation and internal workflows (testing, CI/CD, etc), ensuring better accessibility and usability for both internal and external stakeholders.
-          - Created, reviewed, and maintained multiple technical specifications, product requirements, and UI designs.
-          - Created standardized load testing process for frontend framework (Remix.js with Node.js) and improving the performance of the application based on the load testing result. Resulting in a 10x performance improvement and minimizing load to the VM.
+          - Initiated the migration of multiple documentation sites to Docusaurus with custom branding and automated PR-preview workflows, improving content review throughput by 30%.
+          - Established standardized load-testing processes for the frontend framework (Remix.js + Node.js), achieving a 7x performance improvement and reducing VM load.
+          - Authored and maintained technical specifications, product requirements, and UI designs to support cross-functional delivery.
 
   - organization: Saraf Design
     location: Semarang, Indonesia
