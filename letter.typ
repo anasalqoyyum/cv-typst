@@ -28,11 +28,13 @@
 
 #par(first-line-indent: 0em)[Dear Hiring Manager,]
 
-I’m excited to apply for the #position position at #company. For the past four years at AccelByte Inc., I’ve focused on building scalable and developer-friendly web systems. I led the architecture of a code-generated TypeScript Web SDK, transforming API integration into a strongly typed, modular process that eliminated hand-written wrappers and significantly cut integration time for our teams and customers.
+I’m excited to apply for the #position position at #company. For the past four years at AccelByte Inc., I’ve focused on building scalable and developer-friendly web apps. I led the architecture of a code-generated TypeScript Web SDK that transformed OpenAPI integration into a strongly typed, modular process that eliminated hand-written wrappers and significantly cut integration time for our teams and customers.
 
-Other than TypeScript Web SDK, I worked across React, Electron, Node.js, and Golang, contributing to both frontend and backend projects. I introduced semantic versioning and automated release pipelines for our Web SDK, migrated documentation to Docusaurus with PR-preview automation, and standardized load testing for Remix.js + Node.js, boosting performance by 7x. These efforts improved developer efficiency, predictability, and product performance across the board.
+Recently, I've worked on a major revamp for how Release Manager sending email and web notification to customers. I designed and implemented an automated email notification system integrated with our existing internal web app. This improved communication efficiency and reduced customer inquiries about release statuses by 40%. I also introduced and maintained GitLab CI/CD pipelines to automate tasks such as publishing Web SDK releases to npm, running tests, and deploying updates. These pipelines significantly reduced manual effort and improved reliability across our products.
 
-I’m drawn to #company's focus on enhancing overall user experience and performance in web space and would love to bring my experience in frontend architecture, performance optimization, and automation to help your team scale effectively. Thank you for considering my application. I'd be glad to discuss how my background can add value to your engineering goals.
+Other than the above, I worked across React, Electron, Node.js, and Golang, contributing to both frontend and backend projects. I introduced semantic versioning and automated release pipelines for our Web SDK, migrated documentation to Docusaurus with PR-preview automation, and standardized load testing for Remix.js + Node.js improving our web apps performance by 7x. These efforts improved developer efficiency, predictability, and product performance across the board.
+
+Thank you for considering my application. I’d be happy to discuss how my background can contribute to #company’s engineering goals.
 
 #par(first-line-indent: 0em)[
   Yours faithfully,
