@@ -4,7 +4,7 @@ OUTPUT = Anas-Alqoyyum-CV.pdf
 INPUT-LETTER = letter.typ
 OUTPUT-LETTER = Anas-Alqoyyum-Cover-Letter.pdf
 
-all: watch
+all: compile letter
 
 watch:
 	typst watch $(INPUT) $(OUTPUT)

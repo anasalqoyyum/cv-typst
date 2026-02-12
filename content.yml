@@ -57,27 +57,27 @@ work:
         highlights:
           - Developed and delivered job seeker center website using Laravel and Vue.js.
 
-  - organization: Diponegoro University
-    location: Semarang, Indonesia
-    positions:
-      - position: Laboratory Assistant
-        startDate: 2020-01-01
-        endDate: 2020-12-31
-        highlights:
-          - Managed the laboratory including schedule, finding assistant for lecturer, maintain laboratory PC.
-          - Created a proper schedule without any clash for each subject.
-          - Manage dozens of assistant lecturers every day before teaching the student.
-
-  - organization: Meteorology, Climatology, and Geophysical Agency (BMKG Jawa Tengah)
-    location: Semarang, Indonesia
-    positions:
-      - position: Fullstack Web Developer Intern
-        startDate: 2019-12-01
-        endDate: 2020-03-31
-        highlights:
-          - Developed interactive website called Online System Service (SIMS) using React.js and Three.js for 3D visualization of weather data.
-          - Integrated the website with existing website, so people can order tickets for BMKG data collection online.
-          - Guided 2 staff members to manage the website system, providing steps on how to use, independently make minor updates and changes in business process.
+  # - organization: Diponegoro University
+  #   location: Semarang, Indonesia
+  #   positions:
+  #     - position: Laboratory Assistant
+  #       startDate: 2020-01-01
+  #       endDate: 2020-12-31
+  #       highlights:
+  #         - Managed the laboratory including schedule, finding assistant for lecturer, maintain laboratory PC.
+  #         - Created a proper schedule without any clash for each subject.
+  #         - Manage dozens of assistant lecturers every day before teaching the student.
+  #
+  # - organization: Meteorology, Climatology, and Geophysical Agency (BMKG Jawa Tengah)
+  #   location: Semarang, Indonesia
+  #   positions:
+  #     - position: Fullstack Web Developer Intern
+  #       startDate: 2019-12-01
+  #       endDate: 2020-03-31
+  #       highlights:
+  #         - Developed interactive website called Online System Service (SIMS) using React.js and Three.js for 3D visualization of weather data.
+  #         - Integrated the website with existing website, so people can order tickets for BMKG data collection online.
+  #         - Guided 2 staff members to manage the website system, providing steps on how to use, independently make minor updates and changes in business process.
 
 education:
   - institution: Diponegoro University
@@ -104,22 +104,22 @@ affiliations:
     position: Head of Communication and Information
     location: Semarang, Indonesia
     url: https://hmif.my.id/
-    startDate: 2019-01-30
+    startDate: 2018-01-30
     endDate: 2020-01-30
     highlights:
       - Led a team of peers in managing communication strategies and information flow for the University Student Board.
       - Illustrated, created and conceptualized the design of post content. Mainly Instagram and Line account of HMIF undip
       - Managed and developed HMIF Undip website.
 
-  - organization: Informatics Student Board (HMIF)
-    position: Communication and Information Staff
-    location: Semarang, Indonesia
-    url: https://hmif.my.id/
-    startDate: 2018-01-30
-    endDate: 2019-01-30
-    highlights:
-      - Illustrated, created and conceptualized the design of post content. Mainly Instagram and Line account of HMIF undip
-      - Managed HMIF Undip website.
+  # - organization: Informatics Student Board (HMIF)
+  #   position: Communication and Information Staff
+  #   location: Semarang, Indonesia
+  #   url: https://hmif.my.id/
+  #   startDate: 2018-01-30
+  #   endDate: 2019-01-30
+  #   highlights:
+  #     - Illustrated, created and conceptualized the design of post content. Mainly Instagram and Line account of HMIF undip
+  #     - Managed HMIF Undip website.
 
 awards:
   - title: "Funded Project in Student Creativity Week (PKM)"
@@ -135,14 +135,14 @@ awards:
     location: Jakarta, Indonesia
 
 certificates:
-  - name: "Junior Fullstack Web Developer License"
-    date: 2020-09-16
-    issuer: National Certification Agency for Professional Certification (BNSP)
-    id: null
-  - name: "Basic Student Management Skills Training (LKMM-D)"
-    date: 2018-01-25
-    issuer: BEM FSM Undip
-    id: null
+  # - name: "Junior Fullstack Web Developer License"
+  #   date: 2020-09-16
+  #   issuer: National Certification Agency for Professional Certification (BNSP)
+  #   id: null
+  # - name: "Basic Student Management Skills Training (LKMM-D)"
+  #   date: 2018-01-25
+  #   issuer: BEM FSM Undip
+  #   id: null
 
 publications:
   - name: YOLOv4 Algorithm Implementation Based on Darknet and Optical Character Recognition on Vehicle License Plate Detection
@@ -158,7 +158,6 @@ projects:
     endDate: null
     highlights:
       - A terminal user interface (TUI) apps for browsing Bitbucket pull requests built with Bubble Tea and the Charm framework.
-
   - name: "Dead Simple Markdown Notes"
     url: https://note.anasalqoyyum.dev/
     affiliation: OSS
@@ -224,33 +223,27 @@ skills:
       - Electron
       - Docusaurus
       - Next.js & Remix.js
-      - Three.js
+      - Node.js & Bun
       - Vue, Svelte & Sveltekit
+      - Three.js
       - Tailwind CSS
-      - Node.js
-      - Bun
-      - FastAPI
-      - Flask
       - Laravel
-      - Spring Boot
   - category: Data Analytics
     skills:
       - Jupyter Notebook
       - Numpy
       - Pandas
-      - Plotly
 
 languages:
   - language: Bahasa Indonesia
     fluency: Native Speaker
   - language: English
     fluency: Business proficiency
-  - language: Japanese
-    fluency: Basic proficiency
+  # - language: Japanese
+  #   fluency: Basic proficiency
 
 interests:
   - Arcade Games
-  - Music Production
   - Reading Non-fiction
   - Classical and Original Soundtrack Music
   - Bullet Points Document
