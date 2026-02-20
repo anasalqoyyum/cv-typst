@@ -193,7 +193,7 @@ projects:
     startDate: null
     endDate: null
     highlights:
-      - Yet another customization frontend for video games with AIR movement.
+      - Yet another player profile customizaton frontend for video games with AIR movement.
       - Written with a detailed and easy-to-use dockerized environment on how to deploy on a home arcade environment.
       - Fullstack written with Next.js and using MariaDB. Docker and Nginx is used during deployment.
 
