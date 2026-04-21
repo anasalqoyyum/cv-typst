@@ -28,14 +28,13 @@ work:
         startDate: 2021-06-21
         endDate: present
         highlights:
-          - Led architecture of the code-generated TypeScript Web SDK from OpenAPI to a strongly typed client, modularizing generator templates and eliminating most hand-written wrappers, reducing integration time for product teams and customers.
-          - Contributed and led the development of core applications, including web and desktop applications (React & Electron) and backend services (Node.js, Golang).
-          - Automated customer-specific solution customization through an in-house visual app editor, significantly reducing manual engineering effort.
-          - Designed and maintained automated semantic versioning & release pipeline (conventional commits + changelog generation) for TypeScript Web SDK ensuring predictable upgrade paths and clear migration notes for integrators.
-          - Enhanced documentation and internal workflows (testing, CI/CD, etc), ensuring better accessibility and usability for both internal and external stakeholders.
-          - Initiated the migration of multiple documentation sites to Docusaurus with custom branding and automated PR-preview workflows, improving content review throughput by 30%.
-          - Established standardized load-testing processes for the frontend framework (Remix.js + Node.js), achieving a 7x performance improvement and reducing VM load.
-          - Authored and maintained technical specifications, product requirements, and UI designs to support cross-functional delivery.
+          - Led the architecture of a code-generated TypeScript Web SDK from OpenAPI into a strongly typed, modular client, eliminating most hand-written wrappers and accelerating adoption for both internal teams and customers.
+          - Led the migration from an enterprise release-planning and orchestration platform into focused internal tooling, reducing software cost and operational complexity by supporting only the workflows the team actually used.
+          - Led the migration of multiple documentation sites to Docusaurus with custom branding and automated PR preview workflows, improving content review throughput by 30%.
+          - Built and led delivery of core products across web and desktop applications (React & Electron) as well as backend services (Node.js and Golang).
+          - Automated customer-specific solution customization through an in-house visual app editor, replacing repetitive engineering work with a faster and more scalable workflow.
+          - Designed and maintained the semantic versioning and release automation pipeline for the TypeScript Web SDK, giving integrators predictable upgrades and clear migration notes.
+          - Established a standardized load-testing process for the frontend framework (Remix.js + Node.js), achieving a 7x performance improvement while reducing VM load.
 
   - organization: Saraf Design
     location: Semarang, Indonesia
@@ -151,6 +150,13 @@ publications:
     url: https://pubs.aip.org/aip/acp/article-abstract/2683/1/050023/2891286/YOLOv4-algorithm-implementation-based-on-darknet
 
 projects:
+  - name: "ai-drew-toolbar"
+    url: https://github.com/anasalqoyyum/ai-drew-toolbar
+    affiliation: OSS
+    startDate: null
+    endDate: null
+    highlights:
+      - Browser extension that lets developers inspect a live web app, select a UI element, and copy the relevant code context such as file paths, component names, and HTML structure for use with AI coding tools like Cursor, Claude Code, and GitHub Copilot.
   - name: "msr-archiver"
     url: https://github.com/anasalqoyyum/msr-archiver
     affiliation: OSS
@@ -158,7 +164,6 @@ projects:
     endDate: null
     highlights:
       - Bun-based TUI and Golang CLI for archiving Arknights OSTs from monster-siren.hypergryph.com with album/song metadata, cover art, lyrics, and ffmpeg-powered WAV-to-FLAC conversion.
-
   - name: "Lazy Bitbucket Dashboard"
     url: https://github.com/anasalqoyyum/lazy-bb
     affiliation: OSS
@@ -198,49 +203,58 @@ projects:
       - Fullstack written with Next.js and using MariaDB. Docker and Nginx is used during deployment.
 
 skills:
-  - category: Soft Skills
+  - category: Core
     skills:
-      - Public Speaking
-      - Debating
-      - Communication
-      - Critical Thinking
-      - Leadership
-      - Persuasive Writing
-      - Technical Writing
-  - category: Programming
-    skills:
-      - Javascript & Typescript
-      - HTML
-      - CSS
+      - TypeScript & JavaScript
       - Golang
       - Python
-      - Java
-      - SQL, PostgreSQL
-      - Typst
-      - LaTeX
+      - SQL & PostgreSQL
+      - HTML & CSS
+  - category: Product Engineering
+    skills:
+      - React
+      - Electron
+      - Node.js & Bun
+      - Next.js & Remix.js
+      - REST APIs
+      - OpenAPI & Code Generation
+      - CI/CD
+  - category: AI & Developer Tooling
+    skills:
+      - Vercel AI SDK
+      - Model Context Protocol (MCP)
+      - Tool Calling
+      - Context Engineering
+      - Developer Tooling
+  - category: Data & ML
+    skills:
+      - Machine Learning
+      - Computer Vision
+      - Jupyter Notebook
+      - Numpy
+      - Pandas
   - category: Tools
     skills:
       - Git
       - Docker
-      - Visual Studio Code
       - Neovim
+      - Visual Studio Code
       - Figma
-  - category: Web Development
+      - Typst
+  - category: Additional
     skills:
-      - React
-      - Electron
       - Docusaurus
-      - Next.js & Remix.js
-      - Node.js & Bun
       - Vue, Svelte & Sveltekit
       - Three.js
       - Tailwind CSS
       - Laravel
-  - category: Data Analytics
+  - category: Collaboration
     skills:
-      - Jupyter Notebook
-      - Numpy
-      - Pandas
+      - Technical Writing
+      - Cross-functional Collaboration
+      - Product Thinking
+      - Public Speaking
+      - Leadership
 
 languages:
   - language: Bahasa Indonesia
@@ -251,7 +265,9 @@ languages:
   #   fluency: Basic proficiency
 
 interests:
+  - Developer Tools
+  - AI-Assisted Product Experiences
+  - Game Technology
+  - Terminal Interfaces
   - Arcade Games
   - Reading Non-fiction
-  - Classical and Original Soundtrack Music
-  - Bullet Points Document

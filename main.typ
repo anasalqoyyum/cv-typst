@@ -1,6 +1,50 @@
 #import "./src/cv.typ": *
 
-#let cvdata = yaml("content.yml")
+#let content-file = sys.inputs.at("content", default: "content.yml")
+#let variant = sys.inputs.at("variant", default: "generic")
+
+#let accelbyte-ai-highlights = (
+  "Built and led delivery of core products across web and desktop applications (React & Electron) as well as backend services (Node.js and Golang).",
+  "Led the architecture of a code-generated TypeScript Web SDK from OpenAPI into a strongly typed, modular client, eliminating most hand-written wrappers and accelerating adoption for both internal teams and customers.",
+  "Led the design and rollout of an AI chat assistant inside an Electron desktop application for game developers, using the Vercel AI SDK for streaming responses and tool-calling to help users inspect builds, logs, and operational data more efficiently.",
+  "Designed pragmatic guardrails for in-product AI usage, including bounded token limits and contextual prompting that pulled in-app data into conversations, leading to strong adoption among active users with few production issues observed through analytics and Sentry.",
+  "Expanded the assistant with deeper workflow capabilities such as MCP support, BYOK, and FPS-drop analysis from game build logs, turning it into a more capable diagnostic and developer support tool.",
+  "Automated customer-specific solution customization through an in-house visual app editor, replacing repetitive engineering work with a faster and more scalable workflow.",
+  "Established a standardized load-testing process for the frontend framework (Remix.js + Node.js), achieving a 7x performance improvement while reducing VM load.",
+)
+
+#let with-variant-highlights(data, variant) = {
+  if variant != "ai" {
+    return data
+  }
+
+  let work = data.work
+
+  for (work-index, work-entry) in work.enumerate() {
+    if work-entry.organization != "AccelByte Inc." {
+      continue
+    }
+
+    let positions = work-entry.positions
+
+    for (position-index, position-entry) in positions.enumerate() {
+      if position-entry.position != "Software Engineer" {
+        continue
+      }
+
+      position-entry.at("highlights") = accelbyte-ai-highlights
+      positions.at(position-index) = position-entry
+    }
+
+    work-entry.at("positions") = positions
+    work.at(work-index) = work-entry
+  }
+
+  data.at("work") = work
+  data
+}
+
+#let cvdata = with-variant-highlights(yaml(content-file), variant)
 
 #let uservars = (
   headingfont: "Libertinus Serif",
