@@ -27,12 +27,13 @@ work:
         startDate: 2021-06-21
         endDate: present
         highlights:
+          - Built and maintained developer-facing web, desktop, and backend systems across React, Electron, Node.js, and Golang, with a focus on reliable APIs, operational tooling, and developer workflows.
           - Led the architecture of a code-generated TypeScript Web SDK from OpenAPI into a strongly typed, modular client, eliminating most hand-written wrappers and accelerating adoption for both internal teams and customers.
-          - Led the migration from an enterprise release-planning and orchestration platform into focused internal tooling, reducing software cost and operational complexity by supporting only the workflows the team actually used.
-          - Led the migration of multiple documentation sites to Docusaurus with custom branding and automated PR preview workflows, improving content review throughput by 30%.
-          - Built and led delivery of core products across web and desktop applications (React & Electron) as well as backend services (Node.js and Golang).
-          - Automated customer-specific solution customization through an in-house visual app editor, replacing repetitive engineering work with a faster and more scalable workflow.
-          - Designed and maintained the semantic versioning and release automation pipeline for the TypeScript Web SDK, giving integrators predictable upgrades and clear migration notes.
+          - Designed and maintained semantic versioning, release automation, and backwards-compatible upgrade paths for the TypeScript Web SDK, giving integrators predictable releases and clear migration notes.
+          - Led the migration from an enterprise release-planning and orchestration platform into focused internal tools, including a frontend Release Manager UI and TUI workflows for release automation, reducing software cost and operational complexity.
+          - Led the design and rollout of an AI chat assistant inside an Electron desktop application for game developers, using the Vercel AI SDK for streaming responses and tool-calling to help users inspect builds, logs, and operational data more efficiently.
+          - Designed pragmatic guardrails for in-product AI usage, including bounded token limits and contextual prompting that pulled in-app data into conversations, leading to strong adoption among active users with few production issues observed through analytics and Sentry.
+          - Expanded the assistant with deeper workflow capabilities such as MCP support, BYOK, and FPS-drop analysis from game build logs, turning it into a more capable diagnostic and developer support tool.
           - Established a standardized load-testing process for the frontend framework (Remix.js + Node.js), achieving a 7x performance improvement while reducing VM load.
 
   - organization: Saraf Design
@@ -42,9 +43,9 @@ work:
         startDate: 2019-01-01
         endDate: 2021-12-31
         highlights:
-          - Successfully conceptualized, developed, and fixed over 30 projects, both large-scale and small-scale, catering to diverse client requirements.
-          - Collaborated closely with clients to outline project goals and scope.
-          - Developed web application using Laravel and Vue.js.
+          - Conceptualized, developed, shipped, and maintained over 30 client projects across small business websites, internal systems, and custom web applications.
+          - Collaborated directly with clients to clarify goals, reduce scope into deliverable milestones, and iterate based on feedback after release.
+          - Developed full-stack web applications using Laravel and Vue.js, with responsibility across frontend UI, backend workflows, database integration, and deployment handoff.
 
   - organization: Undip Career Center (UCC)
     location: Semarang, Indonesia
@@ -53,7 +54,7 @@ work:
         startDate: 2021-04-01
         endDate: 2021-06-01
         highlights:
-          - Developed and delivered job seeker center website using Laravel and Vue.js.
+          - Developed and delivered a job seeker center website using Laravel and Vue.js, translating stakeholder requirements into a usable production application on a short contract timeline.
 
   # - organization: Diponegoro University
   #   location: Semarang, Indonesia
@@ -149,13 +150,13 @@ publications:
     url: https://pubs.aip.org/aip/acp/article-abstract/2683/1/050023/2891286/YOLOv4-algorithm-implementation-based-on-darknet
 
 projects:
-  - name: "ai-drew-toolbar"
-    url: https://github.com/anasalqoyyum/ai-drew-toolbar
+  - name: "Lazy Bitbucket Dashboard"
+    url: https://github.com/anasalqoyyum/lazy-bb
     affiliation: OSS
     startDate: null
     endDate: null
     highlights:
-      - Browser extension that lets developers inspect a live web app, select a UI element, and copy the relevant code context such as file paths, component names, and HTML structure for use with AI coding tools like Cursor, Claude Code, and GitHub Copilot.
+      - Terminal user interface for browsing Bitbucket pull requests, built with Bubble Tea and the Charm framework with a focus on fast keyboard-driven review workflows.
   - name: "msr-archiver"
     url: https://github.com/anasalqoyyum/msr-archiver
     affiliation: OSS
@@ -163,13 +164,13 @@ projects:
     endDate: null
     highlights:
       - Bun-based TUI and Golang CLI for archiving Arknights OSTs from monster-siren.hypergryph.com with album/song metadata, cover art, lyrics, and ffmpeg-powered WAV-to-FLAC conversion.
-  - name: "Lazy Bitbucket Dashboard"
-    url: https://github.com/anasalqoyyum/lazy-bb
+  - name: "ai-drew-toolbar"
+    url: https://github.com/anasalqoyyum/ai-drew-toolbar
     affiliation: OSS
     startDate: null
     endDate: null
     highlights:
-      - A terminal user interface (TUI) apps for browsing Bitbucket pull requests built with Bubble Tea and the Charm framework.
+      - Browser extension that lets developers inspect a live web app, select a UI element, and copy the relevant code context such as file paths, component names, and HTML structure for use with AI coding tools like Cursor, Claude Code, and GitHub Copilot.
   - name: "Dead Simple Markdown Notes"
     url: https://note.anasalqoyyum.dev/
     affiliation: OSS
@@ -205,18 +206,37 @@ skills:
   - category: Core
     skills:
       - TypeScript & JavaScript
+      - Frontend Product Engineering
       - Golang
       - Python
       - SQL & PostgreSQL
       - HTML & CSS
-  - category: Product Engineering
+  - category: Backend & APIs
     skills:
-      - React
-      - Electron
       - Node.js & Bun
-      - Next.js & Remix.js
+      - Express.js
       - REST APIs
       - OpenAPI & Code Generation
+      - PostgreSQL
+      - Service Integration
+      - Performance Testing
+      - CI/CD
+  - category: CLI & Developer Experience
+    skills:
+      - CLI Tooling
+      - Terminal UX
+      - Cross-platform Tooling
+      - Release Automation
+      - Package Distribution
+      - Developer Tooling
+  - category: Product Engineering
+    skills:
+      - Customer-Focused Product Development
+      - MVP Scoping & Iteration
+      - React
+      - Electron
+      - Next.js & Remix.js
+      - Tailwind CSS
       - CI/CD
   - category: AI & Developer Tooling
     skills:
@@ -242,10 +262,10 @@ skills:
       - Typst
   - category: Additional
     skills:
+      - Angular & RxJS
       - Docusaurus
       - Vue, Svelte & Sveltekit
       - Three.js
-      - Tailwind CSS
       - Laravel
   - category: Collaboration
     skills:
