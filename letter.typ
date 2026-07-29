@@ -1,14 +1,16 @@
 #let name = "Muhammad Anas Alqoyyum"
-#let email = "muhanasalqoyyum@gmail.com"
+#let email = "hello@anasalqoyyum.dev"
 #let phone = "+62 813 2772 0079"
 #let company = "Company Name"
-#let position = "Full Stack Engineer"
+#let position = "Product Engineer"
+#let company_focus = "[specific product, customer problem, or company direction]"
+#let desired_impact = "[specific outcome you want to help achieve]"
 
 #let today = datetime.today()
 
 #set page(margin: 1.2in, paper: "a4")
 #set text(font: "Libertinus Serif", size: 11pt, lang: "eng")
-#set par(justify: true, first-line-indent: 2em)
+#set par(justify: true)
 #set list(marker: "", body-indent: 0em)
 #show link: underline
 
@@ -28,20 +30,18 @@
 
 #par(first-line-indent: 0em)[Dear Hiring Manager,]
 
-I’m applying for the #position position at #company. My strongest fit is at the intersection of TypeScript backend systems, API design, SDKs, release automation, and developer-facing tooling. Over the past five years at AccelByte Inc., I’ve worked on products used by game developers across web, desktop, backend services, and generated TypeScript clients, with a consistent focus on making complex platform capabilities easier to integrate and operate.
+I’m applying for the #position position at #company. I’m a Product Engineer focused on developer tools, AI-assisted experiences, and platform products. Since joining AccelByte in 2021, I’ve turned complex platform capabilities into products that game developers can integrate, understand, and operate across web, desktop, APIs, and terminal workflows.
 
-One of the largest initiatives I led was the architecture and delivery of a code-generated TypeScript Web SDK that transformed our OpenAPI surface into a strongly typed, modular client. That work reduced hand-written wrappers, improved maintainability, and gave internal teams and customers a more predictable integration path. I also owned semantic versioning and release automation for the SDK, including clearer upgrade flows and migration notes for consumers.
+One of the largest initiatives I led was the architecture of a code-generated TypeScript SDK that transformed our OpenAPI definitions into a strongly typed, modular client. Beyond its technical implementation, the work required understanding how internal teams and customers consumed our APIs, removing repetitive integration work, and establishing predictable releases and upgrade paths.
 
-I also helped migrate our release-planning and orchestration process away from an expensive enterprise platform into smaller internal tools, including a frontend Release Manager UI and TUI workflows for release automation. The requirements were ambiguous and evolved quickly, so we focused on the workflows teams actually used, shipped iteratively, and coordinated closely across frontend, backend, and release stakeholders.
+I also led the delivery of an AI assistant inside a desktop application for game developers. We combined streaming responses and tool calling with contextual application data, practical usage guardrails, and production monitoring. We then expanded the product through MCP, BYOK, and build-log diagnostics based on the workflows users needed. That experience strengthened my approach to AI products: start with a concrete user problem, constrain the system deliberately, observe real usage, and expand where it creates measurable value.
 
-Outside of product work, I’ve built developer tooling and terminal-based applications, including open-source TUI and CLI projects in Go and Bun. Those projects strengthened my appreciation for clear command structure, actionable errors, filesystem behavior, and the small cross-platform details that make developer tools feel reliable instead of fragile.
+What draws me to #company is #company_focus. I’d be excited to bring my experience across product discovery, interface development, platform integration, and developer experience to help #desired_impact.
 
-What draws me to #company is the chance to work on a platform where backend APIs, local development, Postgres workflows, and CLI experience are deeply connected. I’d be excited to help build APIs and tooling that feel consistent, secure, and dependable for developers across macOS, Linux, and Windows.
-
-Thank you for considering my application. I’d welcome the opportunity to discuss how my experience can help drive #company’s engineering goals.
+Thank you for considering my application. I’d welcome the opportunity to discuss how I could contribute to #company’s product and engineering work.
 
 #par(first-line-indent: 0em)[
-  Yours faithfully,
+  Sincerely,
 ]
 
 #name

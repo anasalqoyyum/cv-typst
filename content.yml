@@ -5,7 +5,7 @@ personal:
   email: hello@anasalqoyyum.dev
   url: https://anasalqoyyum.dev
   titles:
-    - Software Engineer
+    - Product Engineer — Developer Tools, AI & Platform Experiences
   location:
     city: Jepara
     region: Jawa Tengah
@@ -27,30 +27,28 @@ work:
         startDate: 2021-06-21
         endDate: present
         highlights:
-          - Built and maintained developer-facing web, desktop, and backend systems across React, Electron, Node.js, and Golang, with a focus on reliable APIs, operational tooling, and developer workflows.
-          - Led the architecture of a code-generated TypeScript Web SDK from OpenAPI into a strongly typed, modular client, eliminating most hand-written wrappers and accelerating adoption for both internal teams and customers.
-          - Designed and maintained semantic versioning, release automation, and backwards-compatible upgrade paths for the TypeScript Web SDK, giving integrators predictable releases and clear migration notes.
-          - Led the migration from an enterprise release-planning and orchestration platform into focused internal tools, including a frontend Release Manager UI and TUI workflows for release automation, reducing software cost and operational complexity.
-          - Led the design and rollout of an AI chat assistant inside an Electron desktop application for game developers, using the Vercel AI SDK for streaming responses and tool-calling to help users inspect builds, logs, and operational data more efficiently.
-          - Designed pragmatic guardrails for in-product AI usage, including bounded token limits and contextual prompting that pulled in-app data into conversations, leading to strong adoption among active users with few production issues observed through analytics and Sentry.
-          - Expanded the assistant with deeper workflow capabilities such as MCP support, BYOK, and FPS-drop analysis from game build logs, turning it into a more capable diagnostic and developer support tool.
-          - Established a standardized load-testing process for the frontend framework (Remix.js + Node.js), achieving a 7x performance improvement while reducing VM load.
+          - Built and maintained developer-facing products across React, Electron, Node.js, and Go, spanning user interfaces, backend services, APIs, and operational tooling.
+          - Architected a code-generated TypeScript SDK that transformed OpenAPI definitions into a strongly typed, modular client, reducing hand-written wrappers and simplifying integration for internal teams and customers.
+          - Owned the SDK's semantic versioning and release automation, establishing predictable releases, backward-compatible upgrade paths, and clearer migration guidance.
+          - Replaced an enterprise release-planning platform with focused internal products, including a Release Manager UI and terminal workflows, reducing software costs and operational complexity.
+          - Led the delivery of an AI assistant for game developers, combining streaming responses, tool calling, contextual application data, usage guardrails, MCP, BYOK, and build-log diagnostics.
+          - Established a repeatable load-testing process for a Remix and Node.js application stack, improving performance by 7x while reducing VM load.
 
   - organization: Saraf Design
     location: Semarang, Indonesia
     positions:
-      - position: Software Engineer Fullstack / Founding Engineer
+      - position: Founding Engineer / Full-Stack Software Engineer
         startDate: 2019-01-01
         endDate: 2021-12-31
         highlights:
-          - Conceptualized, developed, shipped, and maintained over 30 client projects across small business websites, internal systems, and custom web applications.
-          - Collaborated directly with clients to clarify goals, reduce scope into deliverable milestones, and iterate based on feedback after release.
-          - Developed full-stack web applications using Laravel and Vue.js, with responsibility across frontend UI, backend workflows, database integration, and deployment handoff.
+          - Shipped and maintained more than 30 client products, including business websites, internal systems, and custom web applications.
+          - Worked directly with clients to identify business goals, define MVP scope, and iterate on products using post-release feedback.
+          - Owned delivery across interface design, frontend development, backend workflows, database integration, and deployment handoff using Laravel and Vue.js.
 
   - organization: Undip Career Center (UCC)
     location: Semarang, Indonesia
     positions:
-      - position: Software Engineer Fullstack (Contract)
+      - position: Full-Stack Software Engineer — Contract
         startDate: 2021-04-01
         endDate: 2021-06-01
         highlights:
@@ -87,16 +85,8 @@ education:
     endDate: 2021-05-30
     location: Semarang, Indonesia
     honors:
-      - 3.62 / 4.0 GPA
-      - Cumlaude
-    courses:
-      - Algorithms & Data Structures
-      - Machine Learning
-      - Languages and Automata Theory
-      - Computing and Graphics
-    highlights:
-      - "*Thesis*: YOLOv4 Algorithm Implementation Based on Darknet and Optical Character Recognition on Vehicle License Plate Detection"
-      - "*Activities*: Student Board - Appointed as Head of Communication and Information"
+      - "GPA: 3.62 / 4.00"
+      - Cum Laude
 
 affiliations:
   - organization: Informatics Student Board (HMIF)
@@ -106,9 +96,7 @@ affiliations:
     startDate: 2018-01-30
     endDate: 2020-01-30
     highlights:
-      - Led a team of peers in managing communication strategies and information flow for the University Student Board.
-      - Illustrated, created and conceptualized the design of post content. Mainly Instagram and Line account of HMIF undip
-      - Managed and developed HMIF Undip website.
+      - Led communication strategy, content production, and website development for the university's Informatics Student Board.
 
   # - organization: Informatics Student Board (HMIF)
   #   position: Communication and Information Staff
@@ -119,19 +107,6 @@ affiliations:
   #   highlights:
   #     - Illustrated, created and conceptualized the design of post content. Mainly Instagram and Line account of HMIF undip
   #     - Managed HMIF Undip website.
-
-awards:
-  - title: "Funded Project in Student Creativity Week (PKM)"
-    date: 2020-09-12
-    issuer: Ministry of Education and Culture
-    url: null
-    location: Jakarta, Indonesia
-    highlights:
-      - "Served as the speaker and presented in the event."
-  - title: "Silver Award Indonesia Inventors Day"
-    date: 2019-08-15
-    issuer: Indonesian Invention and Innovation Promotion Association (INNOPA)
-    location: Jakarta, Indonesia
 
 certificates:
   # - name: "Junior Fullstack Web Developer License"
@@ -145,11 +120,18 @@ certificates:
 
 publications:
   - name: YOLOv4 Algorithm Implementation Based on Darknet and Optical Character Recognition on Vehicle License Plate Detection
-    publisher: AIP Conference Proceedings in The 6th International Conference On Energy, Environment, Epidemiology And Information System (ICENIS)
+    publisher: AIP Conference Proceedings, ICENIS 2023
     releaseDate: 2023-05-16
     url: https://pubs.aip.org/aip/acp/article-abstract/2683/1/050023/2891286/YOLOv4-algorithm-implementation-based-on-darknet
 
 projects:
+  - name: "ai-drew-toolbar"
+    url: https://github.com/anasalqoyyum/ai-drew-toolbar
+    affiliation: OSS
+    startDate: null
+    endDate: null
+    highlights:
+      - Browser extension that lets developers inspect a live web app, select a UI element, and copy relevant code context such as file paths, component names, and HTML structure for use with AI coding tools.
   - name: "Lazy Bitbucket Dashboard"
     url: https://github.com/anasalqoyyum/lazy-bb
     affiliation: OSS
@@ -157,123 +139,57 @@ projects:
     endDate: null
     highlights:
       - Terminal user interface for browsing Bitbucket pull requests, built with Bubble Tea and the Charm framework with a focus on fast keyboard-driven review workflows.
-  - name: "msr-archiver"
+  - name: "MSR Archiver"
     url: https://github.com/anasalqoyyum/msr-archiver
     affiliation: OSS
     startDate: null
     endDate: null
     highlights:
-      - Bun-based TUI and Golang CLI for archiving Arknights OSTs from monster-siren.hypergryph.com with album/song metadata, cover art, lyrics, and ffmpeg-powered WAV-to-FLAC conversion.
-  - name: "ai-drew-toolbar"
-    url: https://github.com/anasalqoyyum/ai-drew-toolbar
-    affiliation: OSS
-    startDate: null
-    endDate: null
-    highlights:
-      - Browser extension that lets developers inspect a live web app, select a UI element, and copy the relevant code context such as file paths, component names, and HTML structure for use with AI coding tools like Cursor, Claude Code, and GitHub Copilot.
+      - Bun-based TUI and Go CLI for archiving Arknights OSTs with album and song metadata, cover art, lyrics, and ffmpeg-powered WAV-to-FLAC conversion.
   - name: "Dead Simple Markdown Notes"
     url: https://note.anasalqoyyum.dev/
     affiliation: OSS
     startDate: null
     endDate: null
     highlights:
-      - A simple markdown note taking app with a focus on speed and simplicity.
-  - name: "konasute-autoscener"
-    url: https://github.com/anasalqoyyum/konasute-autoscener
-    affiliation: OSS
-    startDate: null
-    endDate: null
-    highlights:
-      - OBS Auto Scene Switcher for Konami's Sound Voltex (Arcade & Konasute) using WebSocket to explore OBS WebSocket Plugin.
-  - name: "Ansible as a (reproducable) workstation environment"
-    url: https://github.com/anasalqoyyum/ansible
-    affiliation: OSS
-    startDate: null
-    endDate: null
-    highlights:
-      - Ansible playbook collection to setup new workstation (Mac & Linux) with all the necessary tools and configurations that I needed.
-  - name: "Hikari"
-    url: null
-    affiliation: OSS
-    startDate: null
-    endDate: null
-    highlights:
-      - Yet another player profile customizaton frontend for video games with AIR movement.
-      - Written with a detailed and easy-to-use dockerized environment on how to deploy on a home arcade environment.
-      - Fullstack written with Next.js and using MariaDB. Docker and Nginx is used during deployment.
+      - Markdown note-taking application designed around speed and simplicity.
 
 skills:
-  - category: Core
-    skills:
-      - TypeScript & JavaScript
-      - Frontend Product Engineering
-      - Golang
-      - Python
-      - SQL & PostgreSQL
-      - HTML & CSS
-  - category: Backend & APIs
-    skills:
-      - Node.js & Bun
-      - Express.js
-      - REST APIs
-      - OpenAPI & Code Generation
-      - PostgreSQL
-      - Service Integration
-      - Performance Testing
-      - CI/CD
-  - category: CLI & Developer Experience
-    skills:
-      - CLI Tooling
-      - Terminal UX
-      - Cross-platform Tooling
-      - Release Automation
-      - Package Distribution
-      - Developer Tooling
   - category: Product Engineering
     skills:
-      - Customer-Focused Product Development
-      - MVP Scoping & Iteration
       - React
       - Electron
       - Next.js & Remix.js
       - Tailwind CSS
+      - Customer-Focused Product Development
+      - MVP Scoping & Iteration
+  - category: Languages & Platforms
+    skills:
+      - TypeScript & JavaScript
+      - Go
+      - Python
+      - Node.js & Bun
+      - SQL & PostgreSQL
+  - category: APIs & Developer Experience
+    skills:
+      - REST APIs
+      - OpenAPI & Code Generation
+      - CLI & TUI Tooling
+      - Release Automation
       - CI/CD
-  - category: AI & Developer Tooling
+      - Performance Testing
+  - category: AI Engineering
     skills:
       - Vercel AI SDK
       - Model Context Protocol (MCP)
       - Tool Calling
       - Context Engineering
-      - Developer Tooling
-  - category: Data & ML
-    skills:
-      - Machine Learning
-      - Computer Vision
-      - Jupyter Notebook
-      - Numpy
-      - Pandas
+      - AI-Assisted Product Experiences
   - category: Tools
     skills:
       - Git
       - Docker
-      - Neovim
-      - Visual Studio Code
       - Figma
-      - Typst
-  - category: Additional
-    skills:
-      - Angular & RxJS
-      - Docusaurus
-      - Vue, Svelte & Sveltekit
-      - Three.js
-      - Laravel
-  - category: Collaboration
-    skills:
-      - Technical Writing
-      - Cross-functional Collaboration
-      - Product Thinking
-      - Public Speaking
-      - Leadership
 
 languages:
   - language: Bahasa Indonesia
