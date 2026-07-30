@@ -31,7 +31,7 @@ work:
           - Architected a code-generated TypeScript SDK that transformed OpenAPI definitions into a strongly typed, modular client, reducing hand-written wrappers and simplifying integration for internal teams and customers.
           - Owned the SDK's semantic versioning and release automation, establishing predictable releases, backward-compatible upgrade paths, and clearer migration guidance.
           - Replaced an enterprise release-planning platform with focused internal products, including a Release Manager UI and terminal workflows, reducing software costs and operational complexity.
-          - Led the delivery of an AI assistant for game developers, combining streaming responses, tool calling, contextual application data, usage guardrails, MCP, BYOK, and build-log diagnostics.
+          - Led the delivery of an AI assistant for game developers, including an internal Go service integrating Amazon Bedrock to centralize model access, rate limiting, and usage controls, alongside streaming responses, tool calling, MCP, BYOK, and build-log diagnostics.
           - Established a repeatable load-testing process for a Remix and Node.js application stack, improving performance by 7x while reducing VM load.
 
   - organization: Saraf Design

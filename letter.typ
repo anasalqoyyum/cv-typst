@@ -30,11 +30,11 @@
 
 #par(first-line-indent: 0em)[Dear Hiring Manager,]
 
-I’m applying for the #position position at #company. I’m a Product Engineer focused on developer tools, AI-assisted experiences, and platform products. Since joining AccelByte in 2021, I’ve turned complex platform capabilities into products that game developers can integrate, understand, and operate across web, desktop, APIs, and terminal workflows.
+I’m applying for the #position position at #company. I’m a Product Engineer focused on TypeScript, developer tools, AI-assisted experiences, and platform products. Since joining AccelByte in 2021, I’ve turned complex platform capabilities into products that game developers can integrate, understand, and operate across web, desktop, APIs, and terminal workflows.
 
 One of the largest initiatives I led was the architecture of a code-generated TypeScript SDK that transformed our OpenAPI definitions into a strongly typed, modular client. Beyond its technical implementation, the work required understanding how internal teams and customers consumed our APIs, removing repetitive integration work, and establishing predictable releases and upgrade paths.
 
-I also led the delivery of an AI assistant inside a desktop application for game developers. We combined streaming responses and tool calling with contextual application data, practical usage guardrails, and production monitoring. We then expanded the product through MCP, BYOK, and build-log diagnostics based on the workflows users needed. That experience strengthened my approach to AI products: start with a concrete user problem, constrain the system deliberately, observe real usage, and expand where it creates measurable value.
+I also led the delivery of an AI assistant inside a desktop application for game developers. The product included an internal Go service integrating Amazon Bedrock, giving us a central place to manage model access, rate limits, and usage controls. We combined that backend with streaming responses, tool calling, contextual application data, and production monitoring, then expanded the product through MCP, BYOK, and build-log diagnostics based on the workflows users needed. That experience strengthened my approach to AI products: start with a concrete user problem, constrain the system deliberately, observe real usage, and expand where it creates measurable value.
 
 What draws me to #company is #company_focus. I’d be excited to bring my experience across product discovery, interface development, platform integration, and developer experience to help #desired_impact.
 
