@@ -170,6 +170,7 @@ skills:
       - Python
       - Node.js & Bun
       - SQL & PostgreSQL
+      - MongoDB
   - category: APIs & Developer Experience
     skills:
       - REST APIs
