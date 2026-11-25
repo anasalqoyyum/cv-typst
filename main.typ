@@ -39,10 +39,10 @@
 
 #cvheading(cvdata, uservars)
 #cvwork(cvdata)
-#cvprojects(cvdata)
+#cvprojects(cvdata, title: "Selected Open-Source Projects")
 #cvskills(cvdata)
 #cveducation(cvdata)
-#cvaffiliations(cvdata)
 #cvpublications(cvdata)
+#cvaffiliations(cvdata)
 #cvcertificates(cvdata)
 #endnote(uservars)

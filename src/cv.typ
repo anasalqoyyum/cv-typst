@@ -14,7 +14,7 @@
 
   set par(
     leading: uservars.linespacing,
-    justify: true,
+    justify: false,
   )
 
   doc
@@ -249,16 +249,18 @@
         } else {
           none
         }
-        // Create a block layout for each project entry
-        block(width: 100%, breakable: isbreakable)[
+        // Create a block layout for each project entry (never split title from bullets)
+        block(width: 100%, breakable: false)[
           // Line 1: Project Name
           #if ("url" in project) and (project.url != none) [
             *#link(project.url)[#project.name]* \
           ] else [
             *#project.name* \
           ]
-          // Line 2: Organization and Date
-          #text(style: "italic")[#project.affiliation]  #h(1fr) #utils.daterange(start, end) \
+          // Line 2: Organization and Date (skip redundant OSS-only subline)
+          #if (project.affiliation != none and project.affiliation != "OSS") or start != none or end != none [
+            #text(style: "italic")[#project.affiliation]  #h(1fr) #utils.daterange(start, end) \
+          ]
           // Summary or Description
           #for hi in project.highlights [
             - #eval(hi, mode: "markup")
@@ -343,7 +345,7 @@
           ]
           // Line 2: Publisher and Date
           #if pub.publisher != none [
-            Published on #text(style: "italic")[#pub.publisher]  #h(1fr) #date \
+            Published in #text(style: "italic")[#pub.publisher]  #h(1fr) #date \
           ] else [
             In press \
           ]
@@ -360,17 +362,17 @@
   ) {
     block(breakable: isbreakable)[
       == #title
+      #if ("skills" in info) and (info.skills != none) [
+        #for group in info.skills [
+          - *#group.category*: #group.skills.join(", ")
+        ]
+      ]
       #if ("languages" in info) and (info.languages != none) [
         #let langs = ()
         #for lang in info.languages {
           langs.push([#lang.language (#lang.fluency)])
         }
         - *Languages*: #langs.join(", ")
-      ]
-      #if ("skills" in info) and (info.skills != none) [
-        #for group in info.skills [
-          - *#group.category*: #group.skills.join(", ")
-        ]
       ]
       #if ("interests" in info) and (info.interests != none) [
         - *Interests*: #info.interests.join(", ")
