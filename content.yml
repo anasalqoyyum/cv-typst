@@ -27,32 +27,32 @@ work:
         startDate: 2021-06-21
         endDate: present
         highlights:
-          - Shipped Ask AccelByte on the marketing site, a customer-facing AI chat widget and server-side streaming proxy with idempotent admission and event replay across page navigations; PostHog A/B tests showed higher chat opens and interactions when auto-shown, alongside first-party telemetry proxying across the site and Admin Portal.
-          - Built an internal product analytics platform (Go, React, TypeScript) used by executives, product, and finance teams, pairing Python/Kubernetes CronJob pipelines into AWS S3 and Athena with an OAuth-backed MCP server so Claude queries live adoption, revenue, and OKR metrics alongside Grafana Loki API-log inspection.
-          - Led delivery of AccelByte's AI assistant and agent-ready Rust CLI (AGS CLI) for game developers, pairing a Go/Amazon Bedrock gateway (rate limiting, streaming, tool calling, MCP, BYOK, build-log diagnostics) with dedicated-server build uploads, guided OAuth login, and 7-target cross-platform releases.
-          - Led performance engineering and capacity planning for Player Portal (Remix/Node.js on Kubernetes), validating 1,000 RPS on a single 0.6-vCPU pod and 1,500 RPS across 5 pods at under 80 ms P99 (zero errors), and modeling horizontal autoscaling to 10,000 RPS for 100k+ CCU game launches.
-          - Architected AccelByte's code-generated TypeScript SDK across v1 and a zero-dependency v2 rebuild on Web Platform APIs, shipping 23 independently importable service packages, WebSocket clients, error codes, and React Query bindings while owning semantic versioning and release automation.
-          - Replaced a paid third-party release-planning platform with an in-house Release Management suite across Customer Portal (React Router v7) and its Go integration service, delivering environment bookings, change approvals, deployment audits, and an in-app SendGrid template editor backed by generated API clients.
+          - Architected AccelByte's OpenAPI-generated TypeScript SDK across v1 and v2 and own its releases; v2 removes all external dependencies, ships 23 modular service packages, and defaults to the latest API while keeping older versions selectable.
+          - Led delivery of AccelByte's developer AI assistant, building a Go and Amazon Bedrock gateway with streaming, tool calling, MCP, rate limiting, BYOK, and build-log diagnostics.
+          - Built AGS CLI in Rust so coding agents can manage AccelByte namespaces and services alongside dedicated-server build uploads, with guided OAuth login and 7-target cross-platform releases.
+          - Shipped Ask AccelByte on the marketing site, building the AI chat widget and streaming proxy with event replay across navigations; PostHog A/B tests confirmed higher opens and interactions when auto-shown.
+          - Engineered an internal analytics platform (Go, React, S3/Athena) with Python/Kubernetes pipelines and an OAuth MCP server so executive, product, and finance teams query live adoption, revenue, and OKR data in Claude.
+          - Led Player Portal performance engineering (Remix/Node.js on Kubernetes), validating 1,500 RPS across 5 pods at under 80 ms P99 with zero errors and modeling autoscaling to 10,000 RPS for 100k+ CCU launches.
+          - Replaced Plutora with an in-house Release Management suite (React Router v7, Go) for environment bookings, change approvals, and deployment audits, eliminating third-party licensing costs.
 
   - organization: Saraf Design
     location: Semarang, Indonesia
     positions:
-      - position: Founding Engineer / Full-Stack Software Engineer
+      - position: Founding Full-Stack Engineer
         startDate: 2019-01-01
         endDate: 2021-12-31
         highlights:
-          - Shipped and maintained 30+ client products, including business websites, internal systems, and custom web apps.
-          - Worked directly with clients to identify business goals, define MVP scope, and iterate on products using post-release feedback.
-          - Owned end-to-end delivery from UI design through Laravel/Vue.js development, database integration, and launch.
+          - Delivered and maintained 30+ client products, including business websites, internal systems, and custom web apps.
+          - Scoped, designed, and built Laravel and Vue.js MVPs directly with clients, iterating on each product after launch.
 
   - organization: Undip Career Center (UCC)
     location: Semarang, Indonesia
     positions:
-      - position: Full-Stack Software Engineer — Contract
+      - position: Full-Stack Software Engineer, Contract
         startDate: 2021-04-01
         endDate: 2021-06-01
         highlights:
-          - Built the university career center's job-seeker website in Laravel and Vue.js on a two-month contract.
+          - Built UCC's job-seeker platform using Laravel and Vue.js.
 
   # - organization: Diponegoro University
   #   location: Semarang, Indonesia
@@ -84,9 +84,8 @@ education:
     startDate: 2017-06-30
     endDate: 2021-05-30
     location: Semarang, Indonesia
-    honors:
-      - "GPA: 3.62 / 4.00"
-      - Cum Laude
+    highlights:
+      - "*GPA*: 3.62 / 4.00, Cum Laude"
 
 affiliations:
   - organization: Informatics Student Board (HMIF)
@@ -131,96 +130,61 @@ projects:
     startDate: null
     endDate: null
     highlights:
-      - Persistent subagent orchestration for the Pi coding agent with background execution, live terminal inspection (output, tool calls, token usage, cost), mid-turn steering, SQLite-backed recovery across restarts, and optional Git worktree isolation.
+      - Persistent subagent orchestration for the Pi coding agent with background execution, SQLite recovery across restarts, and optional Git worktree isolation.
   - name: "ai-drew-toolbar"
     url: https://github.com/anasalqoyyum/ai-drew-toolbar
     affiliation: OSS
     startDate: null
     endDate: null
     highlights:
-      - Manifest V3 Chrome extension with a Shadow DOM live-annotation toolbar for DOM element serialization, cropped screenshot capture, optional DOM/style mutation tracking, and structured coding-agent prompt and ZIP export.
-  - name: "pi-dalamud"
-    url: https://github.com/anasalqoyyum/pi-dalamud
-    affiliation: OSS
-    startDate: null
-    endDate: null
-    highlights:
-      - Final Fantasy XIV Dalamud plugin (.NET/C\#) paired with a localhost-only TypeScript/Node.js bridge embedding an in-game window and slash commands to drive a local Pi coding agent.
+      - Manifest V3 Chrome extension that turns annotated DOM elements and screenshots into structured prompts for coding agents.
   - name: "lazy-bb"
     url: https://github.com/anasalqoyyum/lazy-bb
     affiliation: OSS
     startDate: null
     endDate: null
     highlights:
-      - Keyboard-driven Bitbucket Cloud pull request TUI built with TypeScript and OpenTUI, featuring Vim keybindings, API response caching, and automatic repo detection from local git remotes.
-  - name: "MSR Archiver"
-    url: https://github.com/anasalqoyyum/msr-archiver
-    affiliation: OSS
-    startDate: null
-    endDate: null
-    highlights:
-      - Bun-based TUI and Go CLI for archiving Arknights OSTs with album and song metadata, cover art, lyrics, and ffmpeg-powered WAV-to-FLAC conversion.
+      - TypeScript and OpenTUI terminal UI for browsing Bitbucket Cloud pull requests with Vim keybindings.
 
 skills:
-  - category: AI Engineering
+  - category: Applied AI
     skills:
-      - Model Context Protocol (MCP)
       - Amazon Bedrock
+      - Model Context Protocol (MCP)
       - Vercel AI SDK
       - Tool Calling
       - Streaming AI UX
-      - Context Engineering
   - category: Product Engineering
     skills:
+      - TypeScript
       - React
-      - React Router v7, Remix & Next.js
-      - Electron
-      - Tailwind CSS
-      - PostHog & A/B Experimentation
-      - Funnel Analytics
-      - Figma
-      - MVP Scoping & Iteration
-  - category: Languages & Platforms
-    skills:
-      - TypeScript & JavaScript
-      - Go
-      - Python
-      - Rust
-      - Node.js & Bun
-      - SQL & PostgreSQL
-      - MongoDB
-  - category: APIs & Developer Experience
-    skills:
-      - REST APIs
-      - WebSockets
-      - OAuth 2.0
-      - OpenAPI & Code Generation
-      - CLI & TUI Tooling
+      - React Router v7
+      - Remix
+      - Next.js
+      - PostHog
       - Playwright
-      - Release Automation
-      - CI/CD
-      - Performance Engineering
-  - category: Cloud, Data & Infrastructure
+  - category: Backend & Developer Tools
     skills:
-      - AWS (Athena, S3, ECR, IAM)
+      - Go
+      - Rust
+      - Python
+      - Node.js
+      - OpenAPI
+      - SDK Code Generation
+      - CLI/TUI Tooling
+  - category: Cloud & Infrastructure
+    skills:
+      - AWS (Athena, S3)
       - Kubernetes
       - Terraform
+      - PostgreSQL
       - Grafana Loki
       - Docker
-      - Git
 
 languages:
   - language: Bahasa Indonesia
-    fluency: Native Speaker
+    fluency: Native
   - language: English
-    fluency: Business proficiency
+    fluency: Business Proficiency
   # - language: Japanese
   #   fluency: Basic proficiency
-
-interests:
-  - Developer Tools
-  - AI-Assisted Products
-  - Game Technology
-  - Terminal Interfaces
-  - Arcade Games
-  - Non-fiction
